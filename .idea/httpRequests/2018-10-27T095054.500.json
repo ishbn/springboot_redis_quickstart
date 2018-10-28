@@ -1,0 +1,7 @@
+{
+  "timestamp": "2018-10-27T13:50:54.418+0000",
+  "status": 500,
+  "error": "Internal Server Error",
+  "message": "Cannot deserialize; nested exception is org.springframework.core.serializer.support.SerializationFailedException: Failed to deserialize payload. Is the byte array a result of corresponding serialization for DefaultDeserializer?; nested exception is java.io.StreamCorruptedException: invalid stream header: 73616473",
+  "path": "/api/user/all"
+}

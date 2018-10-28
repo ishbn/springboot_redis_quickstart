@@ -1,0 +1,7 @@
+{
+  "timestamp": "2018-10-27T14:05:41.364+0000",
+  "status": 500,
+  "error": "Internal Server Error",
+  "message": "Invalid bound statement (not found): com.blog.main.doze.dao.SysUserMapper.selectByPrimaryKey",
+  "path": "/api/user/all"
+}

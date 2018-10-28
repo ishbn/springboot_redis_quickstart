@@ -1,0 +1,398 @@
+GET http://localhost:8080/api/user/all?id=1
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-10-28T124132.200.json
+
+###
+
+GET http://localhost:8080/api/user/all?id=1
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-10-27T110706.200.json
+
+###
+
+GET http://localhost:8080/api/user/all?id=2
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-10-27T110653.200.json
+
+###
+
+GET http://localhost:8080/api/user/all?id=1
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-10-27T110639.200.json
+
+###
+
+GET http://localhost:8080/api/user/all
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-10-27T110502.200.json
+
+###
+
+GET http://localhost:8080/api/user/all
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-10-27T110452.200.json
+
+###
+
+GET http://localhost:8080/api/user/all
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-10-27T110451.200.json
+
+###
+
+GET http://localhost:8080/api/user/all
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-10-27T110450.200.json
+
+###
+
+GET http://localhost:8080/api/user/all
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-10-27T110448.200.json
+
+###
+
+GET http://localhost:8080/api/user/all
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-10-27T110429.200.json
+
+###
+
+GET http://localhost:8080/api/user/all
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-10-27T105944.500.json
+
+###
+
+GET http://localhost:8080/api/user/all
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-10-27T105933.500.json
+
+###
+
+GET http://localhost:8080/api/user/all
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-10-27T105923.500.json
+
+###
+
+GET http://localhost:8080/api/user/all
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-10-27T105913.500.json
+
+###
+
+GET http://localhost:8080/api/user/all
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-10-27T105906-2.500.json
+
+###
+
+GET http://localhost:8080/api/user/all
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-10-27T105906-1.500.json
+
+###
+
+GET http://localhost:8080/api/user/all
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-10-27T105906.500.json
+
+###
+
+GET http://localhost:8080/api/user/all
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-10-27T105905-1.500.json
+
+###
+
+GET http://localhost:8080/api/user/all
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-10-27T105905.500.json
+
+###
+
+GET http://localhost:8080/api/user/all
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-10-27T105857-1.500.json
+
+###
+
+GET http://localhost:8080/api/user/all
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-10-27T105857.500.json
+
+###
+
+GET http://localhost:8080/api/user/all
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-10-27T105856.500.json
+
+###
+
+GET http://localhost:8080/api/user/all
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-10-27T105855.500.json
+
+###
+
+GET http://localhost:8080/api/user/all
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-10-27T105854.500.json
+
+###
+
+GET http://localhost:8080/api/user/all
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-10-27T105853.500.json
+
+###
+
+GET http://localhost:8080/api/user/all
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-10-27T105852.500.json
+
+###
+
+GET http://localhost:8080/api/user/all
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-10-27T105850.500.json
+
+###
+
+GET http://localhost:8080/api/user/all
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-10-27T105839.500.json
+
+###
+
+GET http://localhost:8080/api/user/all
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-10-27T105826.500.json
+
+###
+
+GET http://localhost:8080/api/user/all
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-10-27T104722.500.json
+
+###
+
+GET http://localhost:8080/api/user/all
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:8080/api/user/all
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-10-27T104354.500.json
+
+###
+
+GET http://localhost:8080/api/user/all
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-10-27T104255.500.json
+
+###
+
+GET http://localhost:8080/api/user/all
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-10-27T103327-1.500.json
+
+###
+
+GET http://localhost:8080/api/user/all
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-10-27T103327.500.json
+
+###
+
+GET http://localhost:8080/api/user/all
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-10-27T103326.500.json
+
+###
+
+GET http://localhost:8080/api/user/all
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-10-27T103323.500.json
+
+###
+
+GET http://localhost:8080/api/user/all
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-10-27T103320.200.json
+
+###
+
+GET http://localhost:8080/api/user/all
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-10-27T103047.500.json
+
+###
+
+GET http://localhost:8080/api/user/all
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-10-27T102754.500.json
+
+###
+
+GET http://localhost:8080/api/user/all
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-10-27T102748.500.json
+
+###
+
+GET http://localhost:8080/api/user/all
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-10-27T102646.500.json
+
+###
+
+GET http://localhost:8080/api/user/all
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-10-27T102548.200.json
+
+###
+
+GET http://localhost:8080/api/user/all
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-10-27T102111.500.json
+
+###
+
+GET http://localhost:8080/api/user/all
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-10-27T101927.200.txt
+
+###
+
+GET http://localhost:8080/api/user/all
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-10-27T100726.500.json
+
+###
+
+GET http://localhost:8080/api/user/all
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-10-27T100541.500.json
+
+###
+
+GET http://localhost:8080/api/user/all
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-10-27T095343.500.json
+
+###
+
+GET http://localhost:8080/api/user/all
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-10-27T095054.500.json
+
+###
+
+GET http://localhost:8080/api/user/all
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-10-27T094755.500.json
+
+###
+

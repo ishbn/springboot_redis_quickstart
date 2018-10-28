@@ -1,0 +1,106 @@
+server:
+  tomcat:
+    uri-encoding: UTF-8
+    max-threads: 1000
+    min-spare-threads: 30
+  port: 8080
+  servlet:
+    context-path: /
+
+spring:
+  http:
+    encoding: #解决浏览器中返回json显示乱码问题
+      charset: utf-8
+      enabled: true
+      force: true
+  mvc:
+    view:
+      prefix: classpath:templates/
+      suffix: .html
+  datasource:
+    driverClassName: com.mysql.jdbc.Driver
+    username: "doze"
+    password: "dozedoze"
+    url: "jdbc:mysql://localhost:3306/doze?characterEncoding=utf8"
+    initialSize: 5
+    minIdle: 5
+    maxActive: 20
+    maxWait: 60000
+    timeBetweenEvictionRunsMillis: 60000
+    minEvictableIdleTimeMillis: 300000
+    validationQuery: SELECT 1 FROM DUAL
+    testWhileIdle: true
+    testOnBorrow: false
+    exceptionSorter: true
+    testOnReturn: false
+    poolPreparedStatements: true
+    filters: stat,wall,log4j
+    maxPoolPreparedStatementPerConnectionSize: 20
+    connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=500
+    useGlobalDataSourceStat: true
+    type: com.alibaba.druid.pool.DruidDataSource
+  jpa:
+    database: mysql
+   ## Redis 配置
+  redis:
+    database: 0
+    ## Redis服务器地址
+    host: 127.0.0.1
+    ## Redis服务器连接端口
+    port: 6379
+    ## Redis服务器连接密码（默认为空）
+    password: redred001
+    ## 连接池最大连接数（使用负值表示没有限制）
+    jedis:
+      pool:
+        max-active: 8
+        ## 连接池最大阻塞等待时间（使用负值表示没有限制）
+        max-wait: -1
+        ## 连接池中的最大空闲连接
+        max-idle: 8
+        ## 连接池中的最小空闲连接
+        min-idle: 0
+    ## 连接超时时间（毫秒）
+    timeout: 100000
+mybatis:
+  mapperLocations: classpath*:*/mapper/*.xml
+  typeAliasesPackage: com.blog.main.doze.domain #起别名。可省略写mybatis的xml中的resultType的全路径
+#mybatis
+mybatis-plus:
+  mapper-locations: classpath*:*/mapper/**/*.xml
+  #实体扫描，多个package用逗号或者分号分隔
+  typeAliasesPackage: com.blog.main.*.domain
+  global-config:
+    #主键类型  0:"数据库ID自增", 1:"用户输入ID",2:"全局唯一ID (数字类型唯一ID)", 3:"全局唯一ID UUID";
+    id-type: 0
+    #字段策略 0:"忽略判断",1:"非 NULL 判断"),2:"非空判断"
+    field-strategy: 2
+    #驼峰下划线转换
+    db-column-underline: true
+    #刷新mapper 调试神器
+    refresh-mapper: true
+    #数据库大写下划线转换
+    #capital-mode: true
+    # Sequence序列接口实现类配置
+    #key-generator: com.baomidou.mybatisplus.incrementer.OracleKeyGenerator
+    #逻辑删除配置
+    logic-delete-value: -1
+    logic-not-delete-value: 0
+    #自定义填充策略接口实现
+    #meta-object-handler: com.baomidou.springboot.xxx
+    #自定义SQL注入器
+#    sql-injector: com.baomidou.mybatisplus.mapper.LogicSqlInjector
+  configuration:
+    map-underscore-to-camel-case: true
+    cache-enabled: false
+    call-setters-on-nulls: true
+security:
+  redis:
+    open: true  # 是否开启redis缓存  true开启   false关闭
+#  shiro:
+#    redis: true # true表示shiro session存到redis里，需要开启
+
+
+logging:
+  level:
+    com.blog.main.doze.dao: debug

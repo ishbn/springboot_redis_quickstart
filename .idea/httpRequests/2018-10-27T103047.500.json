@@ -1,0 +1,7 @@
+{
+  "timestamp": "2018-10-27T14:30:47.864+0000",
+  "status": 500,
+  "error": "Internal Server Error",
+  "message": "com.blog.main.doze.domain.SysUser cannot be cast to com.blog.main.doze.domain.SysUser",
+  "path": "/api/user/all"
+}

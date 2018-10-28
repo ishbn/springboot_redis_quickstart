@@ -1,0 +1,7 @@
+{
+  "timestamp": "2018-10-27T14:42:55.828+0000",
+  "status": 500,
+  "error": "Internal Server Error",
+  "message": "Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool",
+  "path": "/api/user/all"
+}
